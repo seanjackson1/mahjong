@@ -10,7 +10,7 @@ public class Main {
                 showAllTilesSeat2, showAllTilesSeat3);
         Strategy seat0 = new Marsha2();
         Strategy seat1 = new Marsha2();
-        Strategy seat2 = new Marsha2();
+        Strategy seat2 = new Human(display);
         Strategy seat3 = new SeanJackson();
 
         int[] pointsGained = Game.play(display, seat0, seat1, seat2, seat3);
